@@ -147,6 +147,18 @@ FlowStack(columns: 3, numItems: 27, alignment: .leading) { index, colWidth in
 
 ![Screen Shot 2019-06-25 at 11 41 18 PM](https://user-images.githubusercontent.com/611996/60151555-c78e5200-97a2-11e9-94de-0a4ccc768629.png)
 
+### Evenly spaced grid
+
+```swift
+FlowStack(columns: 4, numItems: 27, alignment: .leading) { index, colWidth in
+  LoadableImageView(with: "https://cataas.com/cat?type=sq?rando")
+    .padding(5)
+    .frame(width: colWidth, height: colWidth)
+}.padding(5)
+```
+
+![Screen Shot 2019-06-26 at 12 13 21 AM](https://user-images.githubusercontent.com/611996/60152721-3ff71200-97a7-11e9-91b2-b338edaab58c.png)
+
 
 ## Feedback
 

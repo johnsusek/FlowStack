@@ -30,7 +30,7 @@ public struct FlowStack<Content>: View where Content: View {
     self.alignment = alignment ?? HorizontalAlignment.leading
   }
 
-  var body : some View {
+  public var body : some View {
     // A GeometryReader is required to size items in the scroll view
     GeometryReader { geometry in
 

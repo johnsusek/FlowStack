@@ -1,3 +1,3 @@
 # FlowStack
 
-A description of this package.
+A grid layout package for SwiftUI.

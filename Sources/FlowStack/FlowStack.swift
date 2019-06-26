@@ -17,9 +17,9 @@ public struct FlowStack<Content>: View where Content: View {
   // when they don't fill all the column slots
   var alignment: HorizontalAlignment
 
-  let content: (Int, CGFloat) -> Content
+  public let content: (Int, CGFloat) -> Content
 
-  init(
+  public init(
     columns: Int,
     numItems: Int,
     alignment: HorizontalAlignment?,

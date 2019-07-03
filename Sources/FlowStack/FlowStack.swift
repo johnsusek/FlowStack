@@ -35,7 +35,7 @@ public struct FlowStack<Content>: View where Content: View {
     GeometryReader { geometry in
 
       // Assume a vertical scrolling orientation for the grid
-      ScrollView(alwaysBounceHorizontal: false, alwaysBounceVertical: true) {
+      ScrollView(Axis.Set.vertical) {
 
         // VStacks are our rows
         VStack(alignment: self.alignment, spacing: 0) {

@@ -8,6 +8,7 @@
 //
 import SwiftUI
 
+/// arrange [content] in a grid
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 public struct FlowStack<Content>: View where Content: View {
 	/// - Parameter columns: The number of columns we want to display
@@ -15,7 +16,7 @@ public struct FlowStack<Content>: View where Content: View {
 	/// - Parameter numItems: The total number of items in the stack
 	var numItems: Int
   
-  /// - Parameter alignment: The alignment of our columns in the last row
+	/// - Parameter alignment: The alignment of our columns in the last row
 	var alignment = HorizontalAlignment.leading
 	
 	public let content: (Int, CGFloat) -> Content

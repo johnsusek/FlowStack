@@ -1,3 +1,5 @@
+## Update July 2020 - latest SwiftUI now has built-in components to do this, which should be used instead. 
+
 # FlowStack
 
 FlowStack is a SwiftUI component for laying out content in a grid.
